@@ -69,6 +69,11 @@ ul {
 
 /*-----main-----*/
 
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
 /*-----footer-----*/
 .socialicons{
   display: flex;
