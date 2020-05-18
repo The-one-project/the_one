@@ -75,29 +75,58 @@ ul {
 }
 
 /*-----footer-----*/
-.socialicons{
-  display: flex;
-  text-decoration: none;
-  justify-content: center;
-  padding: 50px 0;
-  background-color: #243799;
-}
-.socialicons li{
-  margin-left: 30px;
-  list-style: none;
-}
 footer{
   width: 100%;
   height: 200px;
   background-color: #243748;
 }
+
+footer a{
+  color:white;
+}
+
 .container{
   margin: 0 auto;
-  color: white;
   font-weight: bold;
   text-align: center;
 }
+
+.container ul{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.container ul li{
+  margin-right: 30px;
+}
+
+.container ul li:first-of-type{
+  margin-left: 15px;
+}
+
+
+.container a:hover{
+  opacity: 0.8;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5;
+}
+
+/* icon */
+.moon{
+  color: white;
+}
+
 .copyright{
   display: block;
-  margin: 20px;
+  background-color: #21252b;
+  width:100%;
+  letter-spacing: 0.3em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: serif;
 }
+
