@@ -5,9 +5,74 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
 /*-----header-----*/
+.header {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background-color: #eee;
+  box-shadow: 10px 10px 15px -15px;
+  -webkit-box-shadow: 10px 10px 15px -15px;
+  -moz-box-shadow: 10px 10px 15px -15px;
+}
+
+.navbar {
+  justify-content: center;
+  margin: 0px 100px;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.global-nav {
+  height: 100px;
+  justify-content: center;
+  margin: 0px 100px;
+}
+
+.global-nav ul {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.global-nav ul li a {
+  display: block;
+  padding: 20px;
+  font-family: serif;
+  letter-spacing: 0.3em;
+  text-align: center;
+}
+
+.main-name {
+  font-size: 1.2em;
+  font-family: serif;
+  font-weight: bold;
+  letter-spacing: 0.6em;
+}
 
 /*-----main-----*/
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
 
 /*-----footer-----*/
 .socialicons{
