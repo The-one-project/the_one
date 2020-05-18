@@ -74,11 +74,15 @@ ul {
     height: auto;
 }
 
-/*-----footer-----*/
+
+/*-----FOOTER-----*/
+
 footer{
   width: 100%;
-  height: 200px;
-  background-color: #243748;
+  color: white;
+  height: auto;
+  font-family: serif;
+
 }
 
 footer a{
@@ -88,6 +92,75 @@ footer a{
 .container{
   margin: 0 auto;
   font-weight: bold;
+}
+
+/*-----SOCIALS-----*/
+
+.socialIcons ul{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  background-color: #243748;
+
+}
+
+.socialIcons ul li{
+  margin-right: 30px;
+}
+
+.socialIcons ul li:first-of-type{
+  margin-left: 15px;
+}
+
+
+.socialIcons a:hover{
+  opacity: 0.8;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5;
+}
+.moon{
+  color: white;
+}
+
+/*-----FOOTER MENU-----*/
+
+.footerMenuWrapper{
+  background-color: #21252b;
+}
+
+.footermenu{
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px 100px;
+  display: flex;
+}
+
+.menu{
+  padding: 0 30px;
+  margin-right: 80px;
+}
+
+.menu p{
+  border-bottom: solid 1px #ffffff;
+  margin-bottom: 30px;
+}
+.menu>ul>li{
+  margin: 10px 0;
+  font-weight: normal;
+}
+
+.footerLogo p{
+  font-size: 0.7em;
+  text-align: center;
+  color:gray;
+}
+
+/*-----COPYRIGHT-----*/
+
+.copyright-wrapper{
   text-align: center;
 }
 
@@ -127,6 +200,7 @@ footer a{
   letter-spacing: 0.3em;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-family: serif;
 }
-
+.copyright a{
+  color:white;
+}
