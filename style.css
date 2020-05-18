@@ -74,9 +74,7 @@ ul {
     height: auto;
 }
 
-
 /*-----FOOTER-----*/
-
 footer{
   width: 100%;
   color: white;
@@ -84,13 +82,9 @@ footer{
   font-family: serif;
 
 }
-
-footer a{
-  color:white;
-}
-
 .container{
   margin: 0 auto;
+  color: white;
   font-weight: bold;
 }
 
@@ -163,36 +157,6 @@ footer a{
 .copyright-wrapper{
   text-align: center;
 }
-
-.container ul{
-  display: flex;
-  justify-content: center;
-  padding: 50px 0;
-}
-
-.container ul li{
-  margin-right: 30px;
-}
-
-.container ul li:first-of-type{
-  margin-left: 15px;
-}
-
-
-.container a:hover{
-  opacity: 0.8;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5;
-}
-
-/* icon */
-.moon{
-  color: white;
-}
-
 .copyright{
   display: block;
   background-color: #21252b;
