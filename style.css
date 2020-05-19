@@ -19,7 +19,7 @@ ul {
   width: 100%;
   height: 200px;
   position: relative;
-  background-color: #eee;
+  /* background-color: #EEE; */
   box-shadow: 10px 10px 15px -15px;
   -webkit-box-shadow: 10px 10px 15px -15px;
   -moz-box-shadow: 10px 10px 15px -15px;
