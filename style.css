@@ -20,9 +20,9 @@ ul {
   height: 200px;
   position: relative;
   /* background-color: #EEE; */
-  box-shadow: 10px 10px 15px -15px;
-  -webkit-box-shadow: 10px 10px 15px -15px;
-  -moz-box-shadow: 10px 10px 15px -15px;
+  box-shadow: 5px 5px 15px -15px;
+  -webkit-box-shadow: 5px 5px 15px -15px;
+  -moz-box-shadow: 5px 5px 15px -15px;
 }
 
 .navbar {
@@ -77,14 +77,14 @@ ul {
 /*-----FOOTER-----*/
 footer{
   width: 100%;
-  color: white;
+  color: #333;
   height: auto;
   font-family: serif;
 
 }
 .container{
   margin: 0 auto;
-  color: white;
+  color: #333;
   font-weight: bold;
 }
 
@@ -94,7 +94,7 @@ footer{
   display: flex;
   justify-content: center;
   padding: 50px 0;
-  background-color: #243748;
+  background-color: #666;
 
 }
 
@@ -116,13 +116,13 @@ footer{
   transition: all 0.5;
 }
 .moon{
-  color: white;
+  color: #fff;
 }
 
 /*-----FOOTER MENU-----*/
 
 .footerMenuWrapper{
-  background-color: #21252b;
+  background-color: #fff;
 }
 
 .footermenu{
@@ -159,12 +159,12 @@ footer{
 }
 .copyright{
   display: block;
-  background-color: #21252b;
+  background-color: #fff;
   width:100%;
   letter-spacing: 0.3em;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 .copyright a{
-  color:white;a
+  color:#333;
 }
